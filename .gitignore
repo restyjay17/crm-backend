@@ -1,0 +1,135 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+
+*.log
+
+# Local runtime files
+*.pid
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+# =========================
+# PostgreSQL
+# =========================
+
+# Local PostgreSQL data directories
+postgres_data/
+pgdata/
+postgresql_data/
+
+# PostgreSQL dumps / backups
+*.sql.gz
+*.dump
+*.backup
+
+# =========================
+# Alembic
+# =========================
+
+# Usually DO NOT ignore migrations!
+# Alembic migration files should be committed.
+#
+# alembic/versions/
+#
+# Only ignore temporary/generated artifacts if you create any.
+
+# =========================
+# Docker
+# =========================
+
+# Docker override files are often local-only
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker environment files
+docker/.env
+docker-compose.env
+
+# Docker volumes if mounted into the project
+docker-data/
+docker-volumes/
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# VS Code local history
+.history/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Ruff / Linters
+# =========================
+
+.ruff_cache/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~

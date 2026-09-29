@@ -1,0 +1,11 @@
+start python app:
+	uvicorn app.main:app --reload
+
+
+migrate database tables:
+	alembic revision --autogenerate -m "init"
+	alembic upgrade head
+
+update database table:
+	alembic revision --autogenerate -m "add new table"
+	alembic upgrade head
